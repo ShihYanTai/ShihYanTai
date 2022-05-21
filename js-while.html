@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"></meta>
+	<title>Javascript</title>
+	<script type="text/javascript">
+	/*
+		while(判斷){
+			若判斷的結果是正確的(true)，執行大括號區跨中的程式碼。
+			
+			程式碼執行完畢，回到上方 while 的位置，做第二次判斷。
+			直到判斷結果是錯誤的(false)，才跳離整個迴圈結構。
+		}
+	*/
+	<!-- var n=0; -->
+	<!-- while(n<=50){ -->
+		<!-- n++; -->
+	<!-- } -->
+	
+	<!-- alert(n); -->
+	<!-- var sum=0; -->
+	<!-- var i=1; -->
+	<!-- while(i<=100){ -->
+		<!-- sum=sum+i; // sum+=i -->
+		<!-- i++; -->
+	<!-- } -->
+	<!-- alert(sum); -->
+	/*
+	for(初始區塊;判斷;迴圈區塊){
+		判斷概念同
+	}
+	*/
+	/*
+	var sum=0;
+	
+	for(var i=1;i<=100;i++){
+		sum=sum+i; // sum+=i
+	}
+	alert(sum);
+	*/
+	
+	/*
+	break;強制跳出迴圈
+	continue; 強制進行下個迴圈
+	*/
+	
+	/*
+	var n=0;
+	while(n<=100){
+		if(n==50){
+			break;
+		}
+		n++;
+	}
+	alert(n);
+	*/
+	var x=0;
+	for(var n=0;n<=100;n++){
+		if(n%4==0){
+			continue;
+		}
+		x++;
+	}
+	alert(x);
+	</script>
+</head>
+</html>

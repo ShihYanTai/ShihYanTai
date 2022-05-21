@@ -1,0 +1,20 @@
+<!DOCTYOE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>宣告提升 Hoisting</title>
+<script>
+
+// x=10; // 給定初始值
+// alert(x); // 使用變數
+// var x=10; // 宣告變數
+
+var test=function(){ // 函式的宣告
+	alert("Hello");
+};
+test(); // 呼叫函式
+</script>
+</head>
+<body>
+</body>
+</html>
